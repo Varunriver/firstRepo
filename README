@@ -11,8 +11,6 @@ These are the following commands I had learnt now
 5.1 git commit - v also puts the duff of your change in the editor so you can see exactly what you did.
 
 Before commiting make sure to remove some unwanted space things.
-
-
  <osse> --cached and --staged mean the same thing
 [11:41] <grawity> 'cache' is the old name for the staging area, AFAIK
 [11:41] <osse> and 'index' is the current :p
