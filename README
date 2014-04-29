@@ -7,6 +7,8 @@ These are the following commands I had learnt now
 4. git diff
 4.1 git diff --staged
 4.2 git diff --cached
+5. git commit
+5.1 git commit - v also puts the duff of your change in the editor so you can see exactly what you did.
 
 Before commiting make sure to remove some unwanted space things.
 
