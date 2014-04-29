@@ -15,7 +15,13 @@ These are the following commands I had learnt now
 6.1 git log -p option shows the diff introduced in each commit.
 6.2 git log -(length) option limits the output to that length. Replace the length with a number.
 6.3 git log --stat option displays the abbereviated stats for each commit.
-6.4 git log --pretty=online option displays each commit in a single line.
+6.4 git log --pretty=oneline option displays each commit in a single line.
+6.5 git log --pretty=format:"%h - %an,%ar : %s". 
+	$ git log --pretty=format:"%h - %an, %ar : %s"
+	ca82a6d - Scott Chacon, 11 months ago : changed the verison number
+	085bb3b - Scott Chacon, 11 months ago : removed unnecessary test code
+	a11bef0 - Scott Chacon, 11 months ago : first commit
+
 
 Before commiting make sure to remove some unwanted space things.
 

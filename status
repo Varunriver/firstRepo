@@ -196,4 +196,19 @@ Date:   Tue Apr 29 12:36:26 2014 +0530
  status | 13 +++++++++++++
 [root@localhost firstGitRepo]# 
 
+[root@localhost firstGitRepo]# git log --pretty=format :"%h - %an, %ar : %s"
+fatal: invalid --pretty format: format
+[root@localhost firstGitRepo]# git log --pretty=format:"%h - %an, %ar : %s"
+16eb858 - root, 4 minutes ago : Added a descripion about the command git log --pretty=oneline to README file.
+0174137 - root, 10 minutes ago : Added git log commands to README file.
+17669df - root, 18 minutes ago : Renamed the Remove me  to Remove me.txt
+94b3a4c - root, 2 hours ago : Added a new file Remove me .
+c997d6c - root, 2 hours ago : This is the next commit, I am using the -a option to skip the staging area, that is the modified files will automatically staged before c
+d5695e2 - root, 3 hours ago : This commit adds the modified status file to the commit.
+9a4dd02 - root, 3 hours ago : This is my fourth commit, this commit uses inline message content
+8e4a603 - root, 3 hours ago : This is the third commit where I had removed some unwanted spaces.
+4d97f05 - root, 3 hours ago : This is my Second commit where I had added few lines.
+6a04976 - root, 3 hours ago : This is my Firs Commit, more commits are yet to come
+[root@localhost firstGitRepo]# 
+
 
