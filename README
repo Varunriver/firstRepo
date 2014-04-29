@@ -1,0 +1,23 @@
+Readme
+This is the first sample Repo in git that I am creating now.....
+These are the following commands I had learnt now
+1. git init
+2. git status
+3. git add
+4. git diff
+4.1 git diff --staged
+4.2 git diff --cached
+
+Before commiting make sure to remove some unwanted space things.
+
+
+ <osse> --cached and --staged mean the same thing
+[11:41] <grawity> 'cache' is the old name for the staging area, AFAIK
+[11:41] <osse> and 'index' is the current :p
+If the git status command is too vague for you- you want to know exactly what you changed, not just which files were changed.- you can use git diff command.
+
+I am not seeing the changes but not updated
+git add is a multi purpose command which may be used for the following
+1. to start tracking
+2. to stage files
+3. to deal with merge conflict.
