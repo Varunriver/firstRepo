@@ -8,7 +8,10 @@ These are the following commands I had learnt now
 4.1 git diff --staged
 4.2 git diff --cached
 5. git commit
-5.1 git commit - v also puts the diff of your change in the editor so you can see exactly what you did. Alternativatively by using -m flag in the git commit command you can specify the commit message inline.
+5.1 git commit - v also puts the diff of your change in the editor so you can see exactly what you did. 
+5.2 git commit - m Alternativatively by using -m flag in the git commit command you can specify the commit message inline.
+5.3 git commit -a option makes the git automatically stage every files that is already tracked before doing the commit. Letting you to skip the git add part.
+
 
 Before commiting make sure to remove some unwanted space things.
 
