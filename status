@@ -33,3 +33,46 @@ After doing this, you may fix the identity used for this commit with:
     git commit --amend --reset-author
 
  1 file changed, 2 insertions(+), 1 deletion(-)
+
+[root@localhost firstGitRepo]# git commit  -a -v -m "Added a new file Remove me . "
+[master 94b3a4c] Added a new file Remove me .
+ Committer: root <root@localhost.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 33 insertions(+)
+ create mode 100644 Remove Me
+[root@localhost firstGitRepo]# 
+
+[root@localhost firstGitRepo]# git mv Remove\ Me  Remove\ Me.txt
+[root@localhost firstGitRepo]# ls
+README  README~  Remove Me.txt  status  status~
+[root@localhost firstGitRepo]# git status
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	renamed:    Remove Me -> Remove Me.txt
+#
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   status
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	README~
+#	status~
+[root@localhost firstGitRepo]# 
+
+
