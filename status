@@ -75,4 +75,125 @@ README  README~  Remove Me.txt  status  status~
 #	status~
 [root@localhost firstGitRepo]# 
 
+[root@localhost firstGitRepo]# git log --stat
+commit 94b3a4cae8a3f18410a58d05b03e2aeba772b3b2
+Author: root <root@localhost.localdomain>
+Date:   Tue Apr 29 12:49:47 2014 +0530
+
+    Added a new file Remove me .
+
+ Remove Me | 33 +++++++++++++++++++++++++++++++++
+ 1 file changed, 33 insertions(+)
+
+commit c997d6cb1f1527c673977efff240891a2086ae09
+Author: root <root@localhost.localdomain>
+Date:   Tue Apr 29 12:44:57 2014 +0530
+
+    This is the next commit, I am using the -a option to skip the staging area, that is the modified files will automatically staged before commiting it.
+
+ README | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+commit d5695e25744bb426a20587310f40d5b3f805f637
+Author: root <root@localhost.localdomain>
+Date:   Tue Apr 29 12:36:26 2014 +0530
+
+    This commit adds the modified status file to the commit.
+
+ status | 13 +++++++++++++
+ 1 file changed, 13 insertions(+)
+
+commit 9a4dd02aa051ba232e5e668e2d128daee16cb0e0
+Author: root <root@localhost.localdomain>
+Date:   Tue Apr 29 12:32:06 2014 +0530
+
+    This is my fourth commit, this commit uses inline message content
+
+ README | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit 8e4a603d1e33c7d970349a480ab4d91f745b8d1a
+Author: root <root@localhost.localdomain>
+Date:   Tue Apr 29 12:26:02 2014 +0530
+
+    This is the third commit where I had removed some unwanted spaces.
+
+ README | 2 --
+ 1 file changed, 2 deletions(-)
+
+commit 4d97f051f13bcaacd553b1a67de54268f800528e
+Author: root <root@localhost.localdomain>
+Date:   Tue Apr 29 12:24:30 2014 +0530
+
+    This is my Second commit where I had added few lines.
+
+ README | 2 ++
+ 1 file changed, 2 insertions(+)
+
+commit 6a0497666bbddc2f8ba49625788ffef63aadf01e
+Author: root <root@localhost.localdomain>
+Date:   Tue Apr 29 12:12:50 2014 +0530
+
+    This is my Firs Commit, more commits are yet to come
+
+ README | 23 +++++++++++++++++++++++
+ status | 22 ++++++++++++++++++++++
+ 2 files changed, 45 insertions(+)
+[root@localhost firstGitRepo]# git commit -a -v -m "Renamed the Remove me  to Remove me.txt"
+[master 17669df] Renamed the Remove me  to Remove me.txt
+ Committer: root <root@localhost.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 43 insertions(+)
+ rename Remove Me => Remove Me.txt (100%)
+[root@localhost firstGitRepo]# git log --stats
+fatal: unrecognized argument: --stats
+[root@localhost firstGitRepo]# git log --stat
+commit 17669df6aafc4ec00a0caf36e63d703259ee31b5
+Author: root <root@localhost.localdomain>
+Date:   Tue Apr 29 14:53:25 2014 +0530
+
+    Renamed the Remove me  to Remove me.txt
+
+ Remove Me     | 33 ---------------------------------
+ Remove Me.txt | 33 +++++++++++++++++++++++++++++++++
+ status        | 43 +++++++++++++++++++++++++++++++++++++++++++
+ 3 files changed, 76 insertions(+), 33 deletions(-)
+
+commit 94b3a4cae8a3f18410a58d05b03e2aeba772b3b2
+Author: root <root@localhost.localdomain>
+Date:   Tue Apr 29 12:49:47 2014 +0530
+
+    Added a new file Remove me .
+
+ Remove Me | 33 +++++++++++++++++++++++++++++++++
+ 1 file changed, 33 insertions(+)
+
+commit c997d6cb1f1527c673977efff240891a2086ae09
+Author: root <root@localhost.localdomain>
+Date:   Tue Apr 29 12:44:57 2014 +0530
+
+    This is the next commit, I am using the -a option to skip the staging area, that is the modified files will automatically staged before commiting it.
+
+ README | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+commit d5695e25744bb426a20587310f40d5b3f805f637
+Author: root <root@localhost.localdomain>
+Date:   Tue Apr 29 12:36:26 2014 +0530
+
+    This commit adds the modified status file to the commit.
+
+ status | 13 +++++++++++++
+[root@localhost firstGitRepo]# 
+
 
