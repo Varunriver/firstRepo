@@ -30,9 +30,7 @@ the above two commands sets the users email address and name.
 8.4 git config --global user.name
 the above two commands lists the user name and his email address.
 
-Explaning about git to Kanagarajan.
-He is asking about the location of the staged.
-I am going to teach the shortcut for git commit to ignore the staging of files.
+
 
 
 Before commiting make sure to remove some unwanted space things.
