@@ -1,0 +1,20 @@
+C
+HAPTER
+3
+G
+IT
+B
+RANCHING
+Figure 3.3: Branch pointing into the commit data’s history
+Figure 3.4: Multiple branches pointing into the commit’s data history
+This creates a new pointer at the same commit you’re currently on (see
+Figure 3.4
+).
+How does Git know what branch you’re currently on? It keeps a special pointer
+called HEAD. Note that this is a lot different than the concept of HEAD in other VCSs
+you may be used to, such as Subversion or CVS. In Git, this is a pointer to the local
+branch you’re currently on. In this case, you’re still on master. The git branch command
+only created a new branch — it didn’t switch to that branch (see
+Figure 3.5
+)
+This is file is pushed from the branch 'varun'.
