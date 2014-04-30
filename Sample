@@ -5,8 +5,15 @@ touch README.md
 git init
 git add README.md
 git commit -m "first commit"
-git remote add origin https://github.com/Varun-Krishna-P/firstRepo.git
+git remote add origin https://github.com/Varunriver/firstRepo.git
 git push -u origin master
 
 Why I am not seeing this line?
 Yes I had forgotten to add this file for tracking :)
+
+Push an existing repository from the command line
+
+git remote add origin https://github.com/Varunriver/firstRepo.git
+git push -u origin master
+
+
