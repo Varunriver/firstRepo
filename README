@@ -24,6 +24,9 @@ These are the following commands I had learnt now
 7 Undoing things
 7.1 git commit --amend
 
+Explaning about git to Kanagarajan.
+He is asking about the location of the staged.
+
 
 Before commiting make sure to remove some unwanted space things.
 
