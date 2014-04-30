@@ -210,5 +210,19 @@ d5695e2 - root, 3 hours ago : This commit adds the modified status file to the c
 4d97f05 - root, 3 hours ago : This is my Second commit where I had added few lines.
 6a04976 - root, 3 hours ago : This is my Firs Commit, more commits are yet to come
 [root@localhost firstGitRepo]# 
+[root@localhost firstGitRepo]# git commit -a -v -m "This is committed from the branch varun."
+[varun e977135] This is committed from the branch varun.
+ 1 file changed, 20 insertions(+)
+ create mode 100644 testfile.txt
+[root@localhost firstGitRepo]# git push
+To https://github.com/Varunriver/firstRepo.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Varunriver/firstRepo.git'
+hint: Updates were rejected because a pushed branch tip is behind its remote
+hint: counterpart. If you did not intend to push that branch, you may want to
+hint: specify branches to push or set the 'push.default' configuration
+hint: variable to 'current' or 'upstream' to push only the current branch.
+[root@localhost firstGitRepo]# 
+
 
 
