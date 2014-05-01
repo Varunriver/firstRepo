@@ -224,5 +224,16 @@ hint: specify branches to push or set the 'push.default' configuration
 hint: variable to 'current' or 'upstream' to push only the current branch.
 [root@localhost firstGitRepo]# 
 
+Varunkrishna@FALCON-HP /f/GitTryout/firstRepo (varun001)
+$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/Varunkrishna/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/Varunkrishna/.ssh/id_rsa.
+Your public key has been saved in /c/Users/Varunkrishna/.ssh/id_rsa.pub.
+The key fingerprint is:
+f0:5f:83:85:a0:56:3e:a5:65:da:79:a7:5a:95:29:27 Varunkrishna@FALCON-HP
+
 
 
