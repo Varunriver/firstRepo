@@ -6,35 +6,39 @@ Please ignore <> this while typing the commands. That is for example type this g
 4. git add
 5. git commit
 6. git branch
-1. git branch <branch-name> - creates a new branch
-2. git branch  --lists all the branches the * prefixed the branch-name denotes the current branch  which you have checked out.
-3. git branch -d <branch-name> -- deletes the branche
-4. git branch -D <branch-name> --force deletes the unmerged branch
-5. git branch –merged –shows all the branches that are merged
-6. git branch –no-merged –shows all the branch that is/are unmerged
-7. git branch -v –shows the last commit on each branch
+	1. git branch <branch-name> - creates a new branch
+	2. git branch  --lists all the branches the * prefixed the branch-name denotes the current branch  which you have checked out.
+	3. git branch -d <branch-name> -- deletes the branche
+	4. git branch -D <branch-name> --force deletes the unmerged branch
+	5. git branch –merged –shows all the branches that are merged
+	6. git branch –no-merged –shows all the branch that is/are unmerged
+	7. git branch -v –shows the last commit on each branch
+git branch --set-upstream-to local-branch-name origin/remote-branch-name
 7. git merge
 8. git checkout
-1. git checkout -b <branch-name>
-2. git checkout -b <branch-name> <remote-name>/<branch-name>
-3. git checkout –trach <remote-name>/<branch-name>
+	1. git checkout -b <branch-name>
+	2. git checkout -b <branch-name> <remote-name>/<branch-name>
+	3. git checkout –trach <remote-name>/<branch-name>
 9. git push
 10. git pull
 11. git log
 12. git fetch 
 13. git remote 
-1. git remote add <remote-name> <remote-url>
+	1. git remote add <remote-name> <remote-url>
 14. git tag
 15. git mergetool
 16. git fetch  – this command fetches data from the server , that you don't have it,and updates your local database.
-1. git fetch origin – fetches everything from the remote-name origin has that you don't have.
+	1. git fetch origin – fetches everything from the remote-name origin has that you don't have.
 17.  git reomte add <remote-name> <remote-url> 
 18. git push – pushes/shares  a branch to the remote for which you have a write access.
-1. git push <remote-name> <branch-name>
-2. or git push <remote-name> <branch-name>:<branch-name>
-3. or git push <renote-name> <localbranch-name>:<remotebranch-name> -- it renames the branch name while pushing it to the server.
-4. git push <remote-name> :<branch-name> -- this command deletes the branch-name from the remote repository.
+	1. git push <remote-name> <branch-name>
+	2. or git push <remote-name> <branch-name>:<branch-name>
+	3. or git push <renote-name> <localbranch-name>:<remotebranch-name> -- it renames the branch name while pushing it to the server.
+	4. git push <remote-name> :<branch-name> -- this command deletes the branch-name from the remote repository.
 19. Git rebase
-1. git rebase <branch-name>
-2. git rebase –onto <branch-name> <branch-name> <branch-name> ....etc.
-3. Git rebase <branch-name> <branch-name>
+	1. git rebase <branch-name>
+	2. git rebase –onto <branch-name> <branch-name> <branch-name> ....etc.
+	3. Git rebase <branch-name> <branch-name>
+
+
+what has happened to it?
