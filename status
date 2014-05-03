@@ -224,11 +224,5 @@ hint: specify branches to push or set the 'push.default' configuration
 hint: variable to 'current' or 'upstream' to push only the current branch.
 [root@localhost firstGitRepo]# 
 
-[root@localhost firstGitRepo]# git diff
-diff --git a/git basic commands.docx b/git basic commands.docx
-index ed54de3..cadc4df 100644
-Binary files a/git basic commands.docx and b/git basic commands.docx differ
-[root@localhost firstGitRepo]# 
-
 
 

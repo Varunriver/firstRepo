@@ -39,6 +39,9 @@ git branch --set-upstream-to local-branch-name origin/remote-branch-name
 	1. git rebase <branch-name>
 	2. git rebase –onto <branch-name> <branch-name> <branch-name> ....etc.
 	3. Git rebase <branch-name> <branch-name>
+20.git revert
+21.git rev-list
+22.git show-ref
 
 
 what has happened to it?
